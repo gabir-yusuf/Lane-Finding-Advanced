@@ -88,7 +88,7 @@ axes[1].set_title("Undistorted Images", fontsize=20)
 
 
 
-![png](writeup images/0.png)
+![png](writeup-images/0.png)
 
 
 ## Pipeline (test images)

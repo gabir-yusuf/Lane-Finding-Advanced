@@ -111,7 +111,7 @@ def undistortImage(image):
 ```
 
 
-![png](output_8_0.png)
+![png](writeup-images/1.png)
 
 
 ## Perspective Transform with Example
@@ -158,7 +158,7 @@ def WarpPerspective(image):
 ```
 
 
-![png](output_12_0.png)
+![png](writeup-images/2.png)
 
 
 ## Color Transformations with example
@@ -210,7 +210,7 @@ def ExtractChannel(image,colorspace,threshold,channel=0):
 
 
 
-![png](output_16_1.png)
+![png](writeup-images/4.png)
 
 
 ## Sobel with example
@@ -275,7 +275,7 @@ def Sobel(warpedimage, threshold, sobelType, kernelSize=3):
 
 
 
-![png](output_20_1.png)
+![png](writeup-images/5.png)
 
 
 ## Combination of Color Transform and Gradients with example
@@ -315,7 +315,7 @@ def combineEverything(warpedImage, color_threshold, sobel_threshold):
 ```
 
 
-![png](output_24_0.png)
+![png](writeup-images/6.png)
 
 
 ## Identifying lane-line pixels with Example
@@ -343,7 +343,7 @@ def Histogram(warpedimage):
 
 
 
-![png](output_28_1.png)
+![png](writeup-images/7.png)
 
 
 The next step is to initiate a Sliding Window Search in the left and right parts which we got from the histogram.
@@ -445,7 +445,7 @@ def SlidingWindowSearch(binary_warped, plot=False):
 ```
 
 
-![png](output_31_0.png)
+![png](writeup-images/8.png)
 
 
 
@@ -454,7 +454,7 @@ def SlidingWindowSearch(binary_warped, plot=False):
 ```
 
 
-![png](output_32_0.png)
+![png](writeup-images/9.png)
 
 
 ## Radius of Curvature and Distance from Center Calculation 
@@ -561,7 +561,7 @@ def DrawLine(original_image,binary_warped, left_fit, right_fit):
 
 
 
-![png](output_39_1.png)
+![png](writeup-images/10.png)
 
 
 ## Defining Pipeline
@@ -607,7 +607,8 @@ def pipeline(originalImage):
 ```
 
 
-![png](output_43_0.png)
+![png](output_images/0.jpg)
+![png](output_images/5.png)
 
 
 ## Running Pipeline on Video

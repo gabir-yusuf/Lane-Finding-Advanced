@@ -87,12 +87,8 @@ axes[1].set_title("Undistorted Images", fontsize=20)
 
 
 
-    <matplotlib.text.Text at 0x196322b8c50>
 
-
-
-
-![png](output_3_1.png)
+![png](writeup images/0.png)
 
 
 ## Pipeline (test images)

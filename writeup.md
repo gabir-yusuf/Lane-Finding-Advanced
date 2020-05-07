@@ -608,7 +608,7 @@ def pipeline(originalImage):
 
 
 ![png](output_images/0.jpg)
-![png](output_images/5.png)
+![png](output_images/5.jpg)
 
 
 ## Running Pipeline on Video
